@@ -6,7 +6,7 @@ body {
     color: #222;
 }
 
-/* Hi inspector Slowkow and/or Jef */
+/* Header */
 .site-header {
     height: 10.4vw;
     background-color: #f5f5f5;
@@ -37,13 +37,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
-    margin: 0 0 5vw 2.1vw;
+    padding: 0 0 5vw 2.1vw;
     justify-content: flex-start;
 }
 
 .info-box {
-    width: 24.7vw;
-    height: 18.1vw;
+    width: 24vw;
+    height: 17vw;
     padding: 1.4vw;
     background-color: #f5f5f5;
     border-radius: 1.5vw;
@@ -60,7 +60,7 @@ body {
 .info-box p {
     margin: 0;
     padding-top: 1.4vw;
-    border-top: 1px solid #ccc;
+    border-top: 0.14vw solid #ccc;
     text-align: center;
     font-size: 1.5vw;
 }

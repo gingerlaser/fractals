@@ -1,67 +1,60 @@
-/* Global Font and Body Styling */
+/* Global Styling */
 body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #ffffff;
+    background-color: #fff;
     color: #222;
 }
 
-/* Header Styling */
+/* Header */
 .site-header {
-    height: 10.5vw; /* 17.5% of viewport height */
+    height: 10.4vw;
     background-color: #f5f5f5;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     font-weight: 600;
 }
 
-/* Header Text Styling */
 .site-header h1 {
-    margin: 0;
-    font-size: 2.6vw; /* Responsive to width */
-    font-weight: 600;
     padding-left: 7vw;
+    font-size: 2.7vw;
+    font-weight: inherit;
 }
 
-/* Section Content */
+/* Content Sections */
 .content-section {
-    padding-left: 4.8vw;
-    padding-right: 3vw;
-    padding-top: 3.7vw;
-    padding-bottom: 1.6vw;
+    padding: 5vw;
 }
 
-/* Section Headings */
 .section-heading {
+    margin: 0 0 1.8vw 4vw;
     font-size: 2.3vw;
-    margin-bottom: 1.8vw;
-    margin-left: 4vw;
     font-weight: 400;
 }
 
-/* Hi Inspector Slowkow or Jef or whoever ;) */
+/* Box Layout */
 .box-container {
     display: flex;
-    gap: 2vw;
     flex-wrap: wrap;
+    gap: 2vw;
+    margin: 0 0 5vw 2.1vw;
     justify-content: flex-start;
-    margin-bottom: 5vw;
-    margin-left: 2.1vw;
 }
 
-/* Individual boxes */
 .info-box {
-    width: 24.7vw;       /* Responsive width */
-    height: 18.1vw;      /* Responsive height */
+    width: 24.7vw;
+    height: 18.1vw;
+    padding: 1.4vw;
     background-color: #f5f5f5;
     border-radius: 1.5vw;
-    padding: 1.4vw;
     box-shadow: 0 0.2vw 0.8vw rgba(0, 0, 0, 0.1);
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.info-box:hover {
+    box-shadow: 0 0.3vw 1vw rgba(0, 0, 0, 0.13);
 }
 
 .info-box p {
@@ -72,12 +65,9 @@ body {
     font-size: 1.5vw;
 }
 
+/* Link Styling */
 .box-link {
+    display: block;
     text-decoration: none;
     color: inherit;
-    display: block;
-}
-
-.info-box:hover {
-    box-shadow: 0 0.3vw 1vw rgba(0, 0, 0, 0.13);
 }

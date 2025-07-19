@@ -12,22 +12,21 @@ body {
     background-color: #f5f5f5;
     display: flex;
     align-items: center;
-    font-weight: 600;
 }
 
 .site-header h1 {
     padding-left: 7vw;
     font-size: 2.7vw;
-    font-weight: inherit;
+    font-weight: 500;
 }
 
 /* Content Sections */
 .content-section {
-    padding: 5vw;
+    padding: 5vw 0vw 2.2vw 7.2vw;
 }
 
 .section-heading {
-    margin: 0 0 1.8vw 4vw;
+    margin: 0 0 1.8vw 1.8vw;
     font-size: 2.3vw;
     font-weight: 400;
 }
@@ -37,7 +36,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
-    padding: 0 0 5vw 2.1vw;
+    padding: 0 0 5vw 0;
     justify-content: flex-start;
 }
 
@@ -67,7 +66,6 @@ body {
 
 /* Link Styling */
 .box-link {
-    display: block;
     text-decoration: none;
     color: inherit;
 }
